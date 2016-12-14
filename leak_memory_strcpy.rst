@@ -25,7 +25,7 @@ Output
 st.name=UniversityOfScience
 st.age=1701405523 <--- Wrong value => hex = 65696353
 
-name[11]: 11 bytes (12 bytes)
+name[11]: 11 bytes (12 bytes = 4)
 age: 4 bytes
 
         name                   |     age    |
