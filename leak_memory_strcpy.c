@@ -25,7 +25,7 @@ Output
 st.name=UniversityOfScience
 st.age=1701405523 <--- Wrong value => hex = 65696353
 
-name[11]: 11 bytes (12 bytes = 4)
+name[11]: 12 bytes. Because sizeof(int) is 4 bytes, 11 bytes can not algin memory with 4. Therefore, it will get 12 bytes (12/4=3)
 age: 4 bytes
 
         name                   |     age    |
